@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F63CF2EFC6D00D1186EC5312'
+               BlueprintIdentifier = 'A2006C4D0CDA6F2197EDC6B4'
                BlueprintName = 'DSSlideDownView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DSSlideDownView.framework'>

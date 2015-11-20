@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DSSlideDownView: 2db965fb967de2cc6d07bc3234a2aeebc156af18
+  DSSlideDownView: 78d9591b331718e328886b9d8e4127674c8d0d4f
 
 COCOAPODS: 0.39.0
