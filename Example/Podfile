@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DSSlideDownView_Example', :exclusive => true do
+  pod "DSSlideDownView", :path => "../"
+end
+
+target 'DSSlideDownView_Tests', :exclusive => true do
+  pod "DSSlideDownView", :path => "../"
+
+  
+end
