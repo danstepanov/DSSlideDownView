@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/DSSlideDownView.svg?style=flat)](http://cocoapods.org/pods/DSSlideDownView)
 [![Platform](https://img.shields.io/cocoapods/p/DSSlideDownView.svg?style=flat)](http://cocoapods.org/pods/DSSlideDownView)
 
+## Overview
+DSSlideDownView is a subclass of UIView written in Swift.
+
 ![alt text](http://i.imgur.com/PVKUPCe.gif "Demo")
 
 ## Usage
@@ -12,6 +15,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+* ARC
+* iOS 8
 
 ## Installation
 
