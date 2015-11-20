@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/DSSlideDownView.svg?style=flat)](http://cocoapods.org/pods/DSSlideDownView)
 [![Platform](https://img.shields.io/cocoapods/p/DSSlideDownView.svg?style=flat)](http://cocoapods.org/pods/DSSlideDownView)
 
-![alt text](http://imgur.com/PVKUPCe)
+![alt text](http://i.imgur.com/PVKUPCe.gifv)
 
 ## Usage
 
