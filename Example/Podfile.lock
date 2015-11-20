@@ -1,0 +1,14 @@
+PODS:
+  - DSSlideDownView (0.1.0)
+
+DEPENDENCIES:
+  - DSSlideDownView (from `../`)
+
+EXTERNAL SOURCES:
+  DSSlideDownView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DSSlideDownView: 2db965fb967de2cc6d07bc3234a2aeebc156af18
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module DSSlideDownView {
+  umbrella header "DSSlideDownView-umbrella.h"
+
+  export *
+  module * { export * }
+}
