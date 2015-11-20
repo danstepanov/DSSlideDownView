@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/DSSlideDownView.svg?style=flat)](http://cocoapods.org/pods/DSSlideDownView)
 [![Platform](https://img.shields.io/cocoapods/p/DSSlideDownView.svg?style=flat)](http://cocoapods.org/pods/DSSlideDownView)
 
-![alt text](http://hellogiggles.hellogiggles.netdna-cdn.com/wp-content/uploads/2014/08/07/jeff-goldblum.jpg "Demo2")
 ![alt text](http://i.imgur.com/PVKUPCe.gif "Demo")
 
 ## Usage
