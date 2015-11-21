@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DSSlideDownView"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "A UIView subclass with a bouncing effect and an overlay"
 
 # This description is used to generate tags and improve search results.
