@@ -35,14 +35,14 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
         return view
     }()
     
-    lazy var descriptionLabel: UILabel! = {
+    public lazy var descriptionLabel: UILabel! = {
         let view = UILabel(frame: CGRectZero)
         view.translatesAutoresizingMaskIntoConstraints = false
         view.textAlignment = NSTextAlignment.Left
         view.numberOfLines = 30;
         var style = NSMutableParagraphStyle()
         style.lineSpacing = 2.0
-        let string = NSString(string: "This is an example of the DSSlideDownView. Feel free to add any buttons or your own text. \n\nThis version of the component has a static height but the next release will contain a dynamic height that will vary with the amount of the contents in the component. \n\nThis example may be dismissed via either the 'OK' button or by tapping the overlay behind the slide down menu. \n\n- Dan")
+        var string = NSString(string: "This is an example of the DSSlideDownView. Feel free to add any buttons or your own text. \n\nThis version of the component has a static height but the next release will contain a dynamic height that will vary with the amount of the contents in the component. \n\nThis example may be dismissed via either the 'OK' button or by tapping the overlay behind the slide down menu. \n\n- Dan")
         let attrString = NSAttributedString(
             string: string as String,
             attributes: [
