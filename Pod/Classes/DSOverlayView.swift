@@ -10,19 +10,19 @@ import UIKit
 
 var navAndStatusBarHeight: NSInteger = 64
 
-class OverlayView: UIView, UIGestureRecognizerDelegate {
+public class OverlayView: UIView, UIGestureRecognizerDelegate {
 
-    required init!(coder aDecoder:NSCoder) {
+    public required init!(coder aDecoder:NSCoder) {
         super.init(coder: aDecoder)
         setupViews()
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()
     }
     
-    private func setupViews() {
+    public func setupViews() {
         self.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.4)
         
         let dismissOverlayViewTapGesture = UITapGestureRecognizer(target: self, action: "dismissOverlayView")
@@ -32,15 +32,15 @@ class OverlayView: UIView, UIGestureRecognizerDelegate {
         setNeedsUpdateConstraints()
     }
     
-    @IBAction func dismissOverlayView(sender: AnyObject) {
+    public func dismissOverlayView(sender: AnyObject) {
         self.removeFromSuperview()
     }
     
-    func dismissView() {
+    public func dismissView() {
         self.removeFromSuperview()
     }
     
-    override func didMoveToSuperview() {
+    public override func didMoveToSuperview() {
         super.didMoveToSuperview()
         
         if self.superview == nil {

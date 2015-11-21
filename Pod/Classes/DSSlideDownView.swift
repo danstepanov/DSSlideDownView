@@ -16,7 +16,7 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
     
     private var didSetConstraints: Bool = false
     
-    lazy var background: UIImageView! = {
+    public lazy var background: UIImageView! = {
         let view = UIImageView(frame: CGRectZero)
         view.translatesAutoresizingMaskIntoConstraints = false
         view.image = UIImage(named: "background")
@@ -24,7 +24,7 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
         return view
     }()
     
-    lazy var titleLabel: UILabel! = {
+    public lazy var titleLabel: UILabel! = {
         let view = UILabel(frame: CGRectZero)
         view.translatesAutoresizingMaskIntoConstraints = false
         view.text = "Slide Down Menu"
@@ -55,7 +55,7 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
         return view
     }()
     
-    lazy var dismissButton: UIButton! = {
+    public lazy var dismissButton: UIButton! = {
         let view = UIButton(type: .Custom)
         view.translatesAutoresizingMaskIntoConstraints = false
         view.setImage(UIImage(named: "dismiss button"), forState: UIControlState.Normal)
@@ -99,7 +99,7 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
         super.updateConstraints()
     }
     
-    func backgroundConstraints() {
+    public func backgroundConstraints() {
         self.addConstraint(NSLayoutConstraint(
             item:self.background,
             attribute:NSLayoutAttribute.Width,
@@ -138,7 +138,7 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
         
     }
     
-    func titleConstraints() {
+    public func titleConstraints() {
         self.addConstraint(NSLayoutConstraint(
             item:self.titleLabel,
             attribute:NSLayoutAttribute.Width,
@@ -176,7 +176,7 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
             constant:0))
     }
     
-    func descriptionConstraints() {
+    public func descriptionConstraints() {
         self.addConstraint(NSLayoutConstraint(
             item:self.descriptionLabel,
             attribute:NSLayoutAttribute.Width,
@@ -214,7 +214,7 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
             constant:0))
     }
     
-    func dismissButtonConstraints() {
+    public func dismissButtonConstraints() {
         self.addConstraint(NSLayoutConstraint(
             item:self.dismissButton,
             attribute:NSLayoutAttribute.Width,
@@ -318,7 +318,7 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
             })
     }
 
-    func setupOverlay() {
+    public func setupOverlay() {
         self.overlayView = OverlayView()
         self.overlayView.frame = self.superview!.bounds
         self.overlayView.alpha = 0.0
@@ -330,7 +330,7 @@ public class DSSlideDownView: UIView, UIGestureRecognizerDelegate {
         self.overlayView.addGestureRecognizer(dismissViewTap)
     }
     
-    @IBAction func dismissButtonTouched(sender: AnyObject) {
+    public func dismissButtonTouched(sender: AnyObject) {
         print("Slide Down Dismissed")
         
         let screenHeight: CGFloat = UIScreen.mainScreen().bounds.size.height

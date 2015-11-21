@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DSSlideDownView"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A UIView subclass with a bouncing effect and an overlay"
 
 # This description is used to generate tags and improve search results.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "This is UIComponent and a subclass of UIView. It contains a custom animation in and out with an added overlay underneath the presented view. The current version has a static height."
+  s.description      = "This is UIComponent and a subclass of UIView. It contains a custom animation in and out with an added overlay underneath the presented view. The current version has a static height. "
 
   s.homepage         = "https://github.com/danstepanov/DSSlideDownView"
   # s.screenshots     = "http://imgur.com/twWY0O1", "http://imgur.com/qgsEWKj"
