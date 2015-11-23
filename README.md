@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DSSlideDownView.svg?style=flat)](http://cocoapods.org/pods/DSSlideDownView)
 [![License](https://img.shields.io/cocoapods/l/DSSlideDownView.svg?style=flat)](http://cocoapods.org/pods/DSSlideDownView)
 [![Platform](https://img.shields.io/cocoapods/p/DSSlideDownView.svg?style=flat)](http://cocoapods.org/pods/DSSlideDownView)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Overview
 DSSlideDownView is a subclass of UIView written in Swift.
