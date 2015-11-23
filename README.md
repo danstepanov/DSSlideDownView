@@ -22,11 +22,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+# CocoaPods
+
 DSSlideDownView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "DSSlideDownView"
+```
+
+# Carthage
+
+DSSlideDownView also supports Carthage, [read more](http://github.com/carthage/carthage) To install it, simply add the following line to your Cartfile:
+
+```ruby
+github "danstepanov/DSSlideDownView"
 ```
 
 ## Author
