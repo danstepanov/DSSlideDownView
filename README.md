@@ -33,7 +33,7 @@ pod "DSSlideDownView"
 
 ### Carthage
 
-DSSlideDownView also supports Carthage, [read more](http://github.com/carthage/carthage) To install it, simply add the following line to your Cartfile:
+DSSlideDownView also supports [Carthage](http://github.com/carthage/carthage). To install it, simply add the following line to your Cartfile:
 
 ```ruby
 github "danstepanov/DSSlideDownView"
